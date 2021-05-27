@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+  }
+
+
+.hero-carousel-container{
+  border:1px solid black;
+  position:relative;
+  text-align:center;
+}  
+.hero-carousel{
+  border: 1px solid red;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display: inline-block;
+	height:500px;
+  margin:10px;
+	overflow:hidden;
+  position:relative;
+	width:90%;
+}
+
+
+
+.sliding-image{
+  border: 0px solid black;
+  background-position: 30% 10%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: block;
+  float:left;
+  height:600px;
+  object-fit:cover;
+  position:absolute;
+  top:-100px;
+  width:100%;
+  z-index:100;
+}
+
+.display{
+	opacity:1;
+}
+
+.displayNext{
+	opacity:1;
+}
+
+.hide{
+	opacity:0;
+}
+
+.chevron-container{
+  border:0px solid blue;
+  position:relative;
+  text-align:center;
+  width:100%
+}
+
+.chevron-ul{
+  list-style-type:none;
+}
+
+.chevron-li{
+  display:inline-block;
+}
+
+.chevron-button{
+  width:150px;
+  height:30px;
+  margin:10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, 
+              rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.chevron-button:hover{
+  border:1px solid white;
+}
