@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file App.js it should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="section-counter"
+    >
+      <h1
+        data-testid="value"
+      >
+        count: 99
+      </h1>
+      <button
+        data-testid="button-increment"
+        type="button"
+      >
+        Increment
+      </button>
+    </div>
+    <div
+      class="section-top"
+    >
+      top section
+      <br />
+      Value:
+      <span
+        data-testid="value"
+      />
+      <br />
+      <button
+        data-testid="button-increment"
+        type="button"
+      >
+        Increment
+      </button>
+    </div>
+    <div
+      class="section-mid"
+      data-testid="mid-section"
+    >
+      Middle section
+      <span
+        data-testid="value"
+      />
+      <br />
+    </div>
+    <div
+      class="section-bottom"
+    >
+      "this is bottom section"
+      <br />
+      Value: 
+      <button
+        data-testid="button-decrement"
+        type="button"
+      >
+        Decrement
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

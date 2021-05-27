@@ -1,0 +1,65 @@
+.section-counter{
+    
+    border:1px solid black;
+    border-radius:10px;
+    height:200px;
+    margin:10px;
+    position:relative;
+    text-align:center;
+}
+
+.counter-container{
+    border:0px solid green;
+    display: inline-block;
+    margin:10px;
+    position:relative;
+}
+
+.section-top{
+    border:1px solid black;
+    border-radius:10px;
+    height:200px;
+    margin:10px;
+    position:relative;
+    text-align:center;
+}
+
+.top-section-container{
+    border:0px solid green;
+    display:inline-block;
+    margin:10px;
+    position:relative;
+}
+
+.section-mid{
+    border: 1px solid red;
+    border-radius:10px;
+    height: 200px;
+    margin:10px;
+    position:relative;
+    text-align:center;
+}
+
+.mid-section-container{
+    border:0px solid green;
+    display:inline-block;
+    margin:10px;
+    position:relative;
+}
+
+.section-bottom{
+    border: 1px solid blue;
+    border-radius:10px;
+    height:200px;
+    margin:10px;
+    position:relative;
+    text-align:center;
+}
+
+
+.bottom-section-container{
+    border:0px solid green;
+    display:inline-block;
+    margin:10px;
+    position:relative;
+}
